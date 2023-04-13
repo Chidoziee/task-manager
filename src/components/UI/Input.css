@@ -1,0 +1,29 @@
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex: 1;
+
+}
+.input-container label{
+    margin-right: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.input{
+    margin-bottom: .5rem;
+   width: 100%;
+   flex-basis: 85%;
+    
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    flex: 1;
+}
